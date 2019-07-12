@@ -11,7 +11,6 @@ const schemeClassification = {
       exam: "Scheme lv.2(cp.4)",
       description: "You can write some function using number."
     },
-    {},
     {
       level: 3,
       exam: "Scheme lv.3(cp.5-6)",
@@ -168,4 +167,10 @@ const gitClassification = {
   ]
 };
 
-export default [schemeClassification];
+export default [
+  schemeClassification,
+  htmlClassification,
+  cssClassification,
+  javaScriptClassification,
+  gitClassification
+];

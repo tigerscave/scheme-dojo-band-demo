@@ -23,9 +23,9 @@ const TopPage = () => (
           <Link to="/mamadou-belt">Mamadou's belt status</Link>
         </li>
       </ul>
-      <img src={karateImg}/>
+      <img src={karateImg} alt="karateImg"/>
     </div>
-    <style jsx>{`
+    <style jsx="true">{`
       div.container {
         margin: 0 2rem;
       }
