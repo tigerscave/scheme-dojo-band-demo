@@ -35,18 +35,6 @@ const schemeClassification = {
       level: 7,
       exam: "Scheme lv.7(cp.10)",
       description: "You can understand how to write Scheme interpreter"
-    },
-    {
-      level: 8,
-      description: "not yet"
-    },
-    {
-      level: 9,
-      description: "not yet"
-    },
-    {
-      level: 10,
-      description: "not yet"
     }
   ]
 };
@@ -80,6 +68,12 @@ const htmlClassification = {
       level: 5,
       description: "",
       requirement: ""
+    },
+    {
+      level: 6
+    },
+    {
+      level: 7
     }
   ]
 };
@@ -109,6 +103,12 @@ const cssClassification = {
     {
       level: 5,
       description: "Pass CSS exam lv.5"
+    },
+    {
+      level: 6
+    },
+    {
+      level: 7
     }
   ]
 };
@@ -137,6 +137,12 @@ const javaScriptClassification = {
     {
       level: 5,
       description: "Pass JS exam lv.5"
+    },
+    {
+      level: 6
+    },
+    {
+      level: 7
     }
   ]
 };
@@ -163,6 +169,12 @@ const gitClassification = {
     {
       level: 5,
       description: "Pass JS exam lv.5"
+    },
+    {
+      level: 6
+    },
+    {
+      level: 7
     }
   ]
 };

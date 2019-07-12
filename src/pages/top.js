@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import karateImg from "../assets/images/karate.jpg"
+import karateImg from "../assets/images/karate.jpg";
 
 const TopPage = () => (
   <div className="container">
@@ -23,7 +23,7 @@ const TopPage = () => (
           <Link to="/mamadou-belt">Mamadou's belt status</Link>
         </li>
       </ul>
-      <img src={karateImg} alt="karateImg"/>
+      <img src={karateImg} alt="karateImg" />
     </div>
     <style jsx="true">{`
       div.container {
