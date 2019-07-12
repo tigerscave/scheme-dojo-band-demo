@@ -12,7 +12,7 @@ const Hoge = ({ data }) => (
     <p>{data.name}</p>
     <style jsx="true">{`
       div.container {
-        margin: 0 2rem;
+        margin: 0 1rem;
         text-align: center;
       }
       div.cells {
