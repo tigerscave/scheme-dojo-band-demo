@@ -10,12 +10,17 @@ import MamadouBeltPage from "./pages/mamadou-belt";
 function App() {
   return (
     <Router>
-      <Route path="/" exact component={TopPage} />
-      <Route path="/belt-guide" exact component={BeltGuidePage} />
-      <Route path="/zigen-belt" exact component={ZigenBeltPage} />
-      <Route path="/ada-belt" exact component={AdaBeltPage} />
-      <Route path="/rah-belt" exact component={RahBeltPage} />
-      <Route path="/mamadou-belt" exact component={MamadouBeltPage} />
+      <Route
+        path="/"
+        exact
+        basename="/scheme-dojo-band-demo"
+        component={TopPage}
+      />
+      <Route path="/belt-guide" component={BeltGuidePage} />
+      <Route path="/zigen-belt" component={ZigenBeltPage} />
+      <Route path="/ada-belt" component={AdaBeltPage} />
+      <Route path="/rah-belt" component={RahBeltPage} />
+      <Route path="/mamadou-belt" component={MamadouBeltPage} />
     </Router>
   );
 }
