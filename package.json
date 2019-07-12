@@ -64,7 +64,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "fix": "prettier --write \"./src/**/*.js\" \"./*.js\""
+    "fix": "prettier --write \"./src/**/*.js\" \"./*.js\"",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -136,6 +137,6 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ],
-    "homepage" : "."
+    "homepage":"https://tigerscave.github.io/scheme-dojo-band-demo"
   }
 }
