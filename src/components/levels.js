@@ -30,6 +30,6 @@ Levels.defaultProps = {
     JavaScript: 7,
     Git: 7
   }
-}
+};
 
 export default Levels;

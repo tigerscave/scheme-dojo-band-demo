@@ -30,9 +30,4 @@ const mamadou = {
   Git: 1
 };
 
-export {
-  ada,
-  rah,
-  zigen,
-  mamadou
-};
+export { ada, rah, zigen, mamadou };

@@ -8,9 +8,9 @@ const beltColor = {
   5: "Green",
   6: "Red",
   7: "Black"
-}
+};
 
-const CellModal = ({data}) => (
+const CellModal = ({ data }) => (
   <div className="modal-container">
     <p>Level: {data.level}</p>
     <p>Belt Color: {beltColor[data.level]}</p>
