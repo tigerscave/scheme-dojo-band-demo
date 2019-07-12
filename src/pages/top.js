@@ -8,19 +8,19 @@ const TopPage = () => (
     <div className="content">
       <ul>
         <li>
-          <Link to="/belt-guide">Scheme Dojo Belt Guide</Link>
+          <Link to="belt-guide">Scheme Dojo Belt Guide</Link>
         </li>
         <li>
-          <Link to="/zigen-belt">Zigen's belt status</Link>
+          <Link to="zigen-belt">Zigen's belt status</Link>
         </li>
         <li>
-          <Link to="/ada-belt">Adaniya's belt status</Link>
+          <Link to="ada-belt">Adaniya's belt status</Link>
         </li>
         <li>
-          <Link to="/rah-belt">Rahmat's belt status</Link>
+          <Link to="rah-belt">Rahmat's belt status</Link>
         </li>
         <li>
-          <Link to="/mamadou-belt">Mamadou's belt status</Link>
+          <Link to="mamadou-belt">Mamadou's belt status</Link>
         </li>
       </ul>
       <img src={karateImg} alt="karateImg" />

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import TopPage from "./pages/top.js";
 import BeltGuidePage from "./pages/belt-guide.js";
 import ZigenBeltPage from "./pages/zigen-belt";
@@ -13,7 +13,6 @@ function App() {
       <Route
         path="/"
         exact
-        basename="/scheme-dojo-band-demo"
         component={TopPage}
       />
       <Route path="/belt-guide" component={BeltGuidePage} />
