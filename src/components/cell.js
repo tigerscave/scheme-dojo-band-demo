@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { bandColors } from "../statics/colors";
 import CellModal from "./cell-modal";
 
-const Cell = ({ data }) => {
+const Cell = ({ data, isPassed }) => {
   const [isModalShown, toggleModal] = useState(false)
   return (
     <div
@@ -10,7 +10,7 @@ const Cell = ({ data }) => {
       onMouseEnter={() => toggleModal(true)}
       onMouseLeave={() => toggleModal(false)}
       >
-      {isModalShown && <CellModal data={data} />}
+      {isPassed && isModalShown && <CellModal data={data} />}
       <p>{data.level}</p>
       <style jsx="true">{`
         div.container {
@@ -21,6 +21,7 @@ const Cell = ({ data }) => {
           text-align: center;
           background-color: ${bandColors[data.level]};
           position: relative;
+          opacity: ${isPassed ? 1 : 0.5};
         }
         p {
           width: 100%;

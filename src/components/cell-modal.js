@@ -22,7 +22,7 @@ const CellModal = ({data}) => (
         height: 7rem;
         position: absolute;
         top: 1rem;
-        left: 1rem;
+        left: 2rem;
         border: 1px dotted gray;
         background-color: rgba(255, 255, 255, 0.9);
         z-index: 10;

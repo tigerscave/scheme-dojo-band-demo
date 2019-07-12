@@ -1,14 +1,15 @@
 import React from "react";
 import programmingClassification from "../statics/programmingClassification";
 import Levels from "../components/levels";
+import { mamadou } from "../statics/userScores";
 
-const BeltGuidePage = () => {
+const MamadouBeltPage = () => {
   return (
     <div>
-      <h1>Scheme Dojo Programming Belt Guides</h1>
+      <h1>Mamadou's Belt</h1>
       <div className="content">
         {programmingClassification.map((d, i) => (
-          <Levels data={d} key={i} />
+          <Levels data={d} key={i} user={mamadou}/>
         ))}
       </div>
       <style jsx="true">{`
@@ -20,4 +21,4 @@ const BeltGuidePage = () => {
   );
 };
 
-export default BeltGuidePage;
+export default MamadouBeltPage;
