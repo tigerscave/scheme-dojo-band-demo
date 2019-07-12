@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.9a0135f2.chunk.js",
-    "main.js.map": "/static/js/main.9a0135f2.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.62ded82a.chunk.js": "/static/js/2.62ded82a.chunk.js",
-    "static/js/2.62ded82a.chunk.js.map": "/static/js/2.62ded82a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d41b9217b2f4cce6933715a3cc5570d2.js": "/precache-manifest.d41b9217b2f4cce6933715a3cc5570d2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
-    "static/media/ada.jpg": "/static/media/ada.37a7f942.jpg",
-    "static/media/karate.jpg": "/static/media/karate.dc8c89ca.jpg",
-    "static/media/mamadou.png": "/static/media/mamadou.fc589888.png",
-    "static/media/rah.jpg": "/static/media/rah.c860d0ab.jpg",
-    "static/media/zigen.jpg": "/static/media/zigen.ff90ac0a.jpg"
+    "main.css": "/scheme-dojo-band-demo/static/css/main.34de6062.chunk.css",
+    "main.js": "/scheme-dojo-band-demo/static/js/main.3fdbf49a.chunk.js",
+    "main.js.map": "/scheme-dojo-band-demo/static/js/main.3fdbf49a.chunk.js.map",
+    "runtime~main.js": "/scheme-dojo-band-demo/static/js/runtime~main.6eb9ba84.js",
+    "runtime~main.js.map": "/scheme-dojo-band-demo/static/js/runtime~main.6eb9ba84.js.map",
+    "static/js/2.62ded82a.chunk.js": "/scheme-dojo-band-demo/static/js/2.62ded82a.chunk.js",
+    "static/js/2.62ded82a.chunk.js.map": "/scheme-dojo-band-demo/static/js/2.62ded82a.chunk.js.map",
+    "index.html": "/scheme-dojo-band-demo/index.html",
+    "precache-manifest.0b41e14c30ac35804a396a2e6d6b08c5.js": "/scheme-dojo-band-demo/precache-manifest.0b41e14c30ac35804a396a2e6d6b08c5.js",
+    "service-worker.js": "/scheme-dojo-band-demo/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/scheme-dojo-band-demo/static/css/main.34de6062.chunk.css.map",
+    "static/media/ada.jpg": "/scheme-dojo-band-demo/static/media/ada.37a7f942.jpg",
+    "static/media/karate.jpg": "/scheme-dojo-band-demo/static/media/karate.dc8c89ca.jpg",
+    "static/media/mamadou.png": "/scheme-dojo-band-demo/static/media/mamadou.fc589888.png",
+    "static/media/rah.jpg": "/scheme-dojo-band-demo/static/media/rah.c860d0ab.jpg",
+    "static/media/zigen.jpg": "/scheme-dojo-band-demo/static/media/zigen.ff90ac0a.jpg"
   }
 }
