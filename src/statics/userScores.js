@@ -23,11 +23,19 @@ const zigen = {
 };
 
 const mamadou = {
+  Scheme: 0,
+  HTML: 0,
+  CSS: 0,
+  Git: 0,
+  JavaScript: 0,
+};
+
+const levelOne = {
   Scheme: 1,
   HTML: 1,
   CSS: 1,
+  Git: 1,
   JavaScript: 1,
-  Git: 1
 };
 
-export { ada, rah, zigen, mamadou };
+export { ada, rah, zigen, mamadou, levelOne };

@@ -6,6 +6,7 @@ import ZigenBeltPage from "./pages/zigen-belt";
 import AdaBeltPage from "./pages/ada-belt";
 import RahBeltPage from "./pages/rah-belt";
 import MamadouBeltPage from "./pages/mamadou-belt";
+import LevelOnePage from "./pages/level-one";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/ada-belt" component={AdaBeltPage} />
       <Route path="/rah-belt" component={RahBeltPage} />
       <Route path="/mamadou-belt" component={MamadouBeltPage} />
+      <Route path="/level-one" component={LevelOnePage} />
     </Router>
   );
 }

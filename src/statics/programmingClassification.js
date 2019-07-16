@@ -183,6 +183,6 @@ export default [
   schemeClassification,
   htmlClassification,
   cssClassification,
+  gitClassification,
   javaScriptClassification,
-  gitClassification
 ];

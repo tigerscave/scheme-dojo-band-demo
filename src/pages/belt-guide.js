@@ -8,7 +8,7 @@ const BeltGuidePage = () => {
       <h1>Scheme Dojo Programming Belt Guides</h1>
       <div className="content">
         {programmingClassification.map((d, i) => (
-          <Levels data={d} key={i} />
+          <Levels data={d} key={i} isGuide={true}/>
         ))}
       </div>
       <style jsx="true">{`

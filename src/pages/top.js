@@ -22,6 +22,9 @@ const TopPage = () => (
         <li>
           <Link to="mamadou-belt">Mamadou's belt status</Link>
         </li>
+        <li>
+          <Link to="level-one">Level One Required</Link>
+        </li>
       </ul>
       <img src={karateImg} alt="karateImg" />
     </div>

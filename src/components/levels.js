@@ -1,11 +1,11 @@
 import React from "react";
 import Cell from "../components/cell";
 
-const Levels = ({ data, user }) => (
+const Levels = ({ data, user, isGuide }) => (
   <div className="container">
     <div className="cells">
       {data.levels.map((d, i) => (
-        <Cell data={d} key={i} isPassed={d.level <= user[data.name]} />
+        <Cell data={d} key={i} isPassed={d.level <= user[data.name]} isGuide={isGuide} />
       ))}
     </div>
     <h3>{data.name}</h3>
@@ -29,7 +29,8 @@ Levels.defaultProps = {
     CSS: 7,
     JavaScript: 7,
     Git: 7
-  }
+  },
+  isGuide: false
 };
 
 export default Levels;
