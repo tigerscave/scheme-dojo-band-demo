@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a385a3782af25909c4d23b5980ab160d",
+    "revision": "71283da0aaa48f2eebe5d4634b17b696",
     "url": "/scheme-dojo-band-demo/index.html"
   },
   {
-    "revision": "214bd030a8272ec8f170",
+    "revision": "ae6982f41f91393a9c7f",
     "url": "/scheme-dojo-band-demo/static/css/main.4fb14ed2.chunk.css"
   },
   {
-    "revision": "08b0de559b40bebc97dc",
-    "url": "/scheme-dojo-band-demo/static/js/2.77eb4849.chunk.js"
+    "revision": "00dc80755d79f5f929ba",
+    "url": "/scheme-dojo-band-demo/static/js/2.e111fec4.chunk.js"
   },
   {
-    "revision": "214bd030a8272ec8f170",
-    "url": "/scheme-dojo-band-demo/static/js/main.a8c3eef9.chunk.js"
+    "revision": "ae6982f41f91393a9c7f",
+    "url": "/scheme-dojo-band-demo/static/js/main.e2cb796c.chunk.js"
   },
   {
     "revision": "6258aa67afed6fd2a0b2",
@@ -24,12 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scheme-dojo-band-demo/static/media/ada.37a7f942.jpg"
   },
   {
+    "revision": "5e15e6021f3d7fe502b732675b0c4c92",
+    "url": "/scheme-dojo-band-demo/static/media/apple.5e15e602.png"
+  },
+  {
     "revision": "063aa07624f1a6bed5e7facb772a6c05",
     "url": "/scheme-dojo-band-demo/static/media/bob.063aa076.jpg"
   },
   {
+    "revision": "87419c7c6fe7dade98c7486e13cf3a4d",
+    "url": "/scheme-dojo-band-demo/static/media/count.87419c7c.png"
+  },
+  {
     "revision": "dc8c89ca6bfdbce06a569a25efe3ca6c",
     "url": "/scheme-dojo-band-demo/static/media/karate.dc8c89ca.jpg"
+  },
+  {
+    "revision": "9e674e99f1842a7cd60d67391dd161d7",
+    "url": "/scheme-dojo-band-demo/static/media/lat.9e674e99.png"
   },
   {
     "revision": "fc589888554c05c3ba8b87cfff0eb521",
@@ -40,8 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scheme-dojo-band-demo/static/media/rah.c860d0ab.jpg"
   },
   {
+    "revision": "f2e630beb3fcd4e16f1676ec10c516a2",
+    "url": "/scheme-dojo-band-demo/static/media/rempick.f2e630be.png"
+  },
+  {
+    "revision": "8f31a74b4a9b685860ac0cfc974318aa",
+    "url": "/scheme-dojo-band-demo/static/media/sq-sum.8f31a74b.png"
+  },
+  {
     "revision": "13a540848031c272c2bd06cd689f8a97",
     "url": "/scheme-dojo-band-demo/static/media/star.13a54084.png"
+  },
+  {
+    "revision": "aa77959269371661fbe8431e57c8b40f",
+    "url": "/scheme-dojo-band-demo/static/media/tup-plus.aa779592.png"
   },
   {
     "revision": "ff90ac0a10e1abf9b4fd86d1488db4e5",
