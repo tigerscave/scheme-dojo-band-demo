@@ -1,8 +1,9 @@
 import React from "react";
 import programmingClassification from "../statics/programmingClassification";
 import Levels from "../components/levels";
-import { zigen } from "../statics/userScores";
+import { zigen, zigenSkills } from "../statics/userScores";
 import zigenImg from "../assets/images/zigen.jpg";
+import SkillBlocks from "../components/skill-blocks";
 
 const ZigenBeltPage = () => {
   return (
@@ -15,6 +16,9 @@ const ZigenBeltPage = () => {
         {programmingClassification.map((d, i) => (
           <Levels data={d} key={i} user={zigen} />
         ))}
+      </div>
+      <div>
+        <SkillBlocks skills={zigenSkills} />
       </div>
       <style jsx>{`
         div.profile {

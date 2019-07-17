@@ -1,5 +1,5 @@
 const schemeClassification = {
-  name: "Scheme",
+  name: "Scheme Beginner",
   levels: [
     {
       level: 1,
@@ -184,5 +184,5 @@ export default [
   htmlClassification,
   cssClassification,
   gitClassification,
-  javaScriptClassification,
+  javaScriptClassification
 ];

@@ -1,8 +1,9 @@
 import React from "react";
 import programmingClassification from "../statics/programmingClassification";
 import Levels from "../components/levels";
-import { rah } from "../statics/userScores";
+import { rah, rahSkills } from "../statics/userScores";
 import rahImg from "../assets/images/rah.jpg";
+import SkillBlocks from "../components/skill-blocks";
 
 const RahBeltPage = () => {
   return (
@@ -15,6 +16,9 @@ const RahBeltPage = () => {
         {programmingClassification.map((d, i) => (
           <Levels data={d} key={i} user={rah} />
         ))}
+      </div>
+      <div>
+        <SkillBlocks skills={rahSkills} />
       </div>
       <style jsx="true">{`
         div.profile {

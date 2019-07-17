@@ -5,7 +5,12 @@ const Levels = ({ data, user, isGuide }) => (
   <div className="container">
     <div className="cells">
       {data.levels.map((d, i) => (
-        <Cell data={d} key={i} isPassed={d.level <= user[data.name]} isGuide={isGuide} />
+        <Cell
+          data={d}
+          key={i}
+          isPassed={d.level <= user[data.name]}
+          isGuide={isGuide}
+        />
       ))}
     </div>
     <h3>{data.name}</h3>

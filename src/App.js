@@ -11,11 +11,7 @@ import LevelOnePage from "./pages/level-one";
 function App() {
   return (
     <Router>
-      <Route
-        path="/"
-        exact
-        component={TopPage}
-      />
+      <Route path="/" exact component={TopPage} />
       <Route path="/belt-guide" component={BeltGuidePage} />
       <Route path="/zigen-belt" component={ZigenBeltPage} />
       <Route path="/ada-belt" component={AdaBeltPage} />

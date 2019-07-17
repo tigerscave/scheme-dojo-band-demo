@@ -1,8 +1,9 @@
 import React from "react";
 import programmingClassification from "../statics/programmingClassification";
 import Levels from "../components/levels";
-import { ada } from "../statics/userScores";
+import { ada, adaSkills } from "../statics/userScores";
 import adaImg from "../assets/images/ada.jpg";
+import SkillBlocks from "../components/skill-blocks";
 
 const AdaBeltPage = () => {
   return (
@@ -15,6 +16,9 @@ const AdaBeltPage = () => {
         {programmingClassification.map((d, i) => (
           <Levels data={d} key={i} user={ada} />
         ))}
+      </div>
+      <div>
+        <SkillBlocks skills={adaSkills} />
       </div>
       <style jsx="true">{`
         div.profile {

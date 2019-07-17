@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { bandColors } from "../statics/colors";
 import CellModal from "./cell-modal";
-import starImg from "../assets/images/star.png"
+import starImg from "../assets/images/star.png";
 
 const Cell = ({ data, isPassed, isGuide }) => {
   const [isModalShown, toggleModal] = useState(false);
