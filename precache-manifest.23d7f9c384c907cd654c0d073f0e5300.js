@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0836169fe142bbe9e5ba1f10a7ee4546",
+    "revision": "a385a3782af25909c4d23b5980ab160d",
     "url": "/scheme-dojo-band-demo/index.html"
   },
   {
-    "revision": "ba42b9bb0028d84b803b",
+    "revision": "214bd030a8272ec8f170",
     "url": "/scheme-dojo-band-demo/static/css/main.4fb14ed2.chunk.css"
   },
   {
-    "revision": "22900c65b845c230a899",
-    "url": "/scheme-dojo-band-demo/static/js/2.1be92ad0.chunk.js"
+    "revision": "08b0de559b40bebc97dc",
+    "url": "/scheme-dojo-band-demo/static/js/2.77eb4849.chunk.js"
   },
   {
-    "revision": "ba42b9bb0028d84b803b",
-    "url": "/scheme-dojo-band-demo/static/js/main.1ded427c.chunk.js"
+    "revision": "214bd030a8272ec8f170",
+    "url": "/scheme-dojo-band-demo/static/js/main.a8c3eef9.chunk.js"
   },
   {
     "revision": "6258aa67afed6fd2a0b2",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37a7f9429fb52b62a6d39e9437e97bf0",
     "url": "/scheme-dojo-band-demo/static/media/ada.37a7f942.jpg"
+  },
+  {
+    "revision": "063aa07624f1a6bed5e7facb772a6c05",
+    "url": "/scheme-dojo-band-demo/static/media/bob.063aa076.jpg"
   },
   {
     "revision": "dc8c89ca6bfdbce06a569a25efe3ca6c",
